@@ -1,0 +1,284 @@
+body {
+    font-family: 'Sofia', cursive;
+    font-size: 18px;
+    line-height: 0.5;
+    padding: 0;
+    margin: 0;
+    background-color: #b34fc4;
+}
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.whiti {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+/* Header */
+#marca {
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    padding-left: 70px;
+    line-height: 40px;
+}
+
+header {
+    background: white;
+    color: #b34fc4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header a {
+    color: #b34fc4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0;
+    font-family: 'Sofia', cursive;
+}
+
+header ul {
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0 10px 0 10px;
+    list-style: none;
+    font-family: 'Sofia', cursive;
+}
+
+header .fixo a {
+    color: #b34fc4;
+    font-weight: bold;
+}
+
+
+header a:hover {
+    color: #b34fc4;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url("../images/cartas3.png") no-repeat;
+    background-size: 4300px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    margin-top: 80px;
+    font-size: 100px;
+    margin-bottom: 60px;
+    font-family: 'Sofia', cursive;
+    line-height: 85px;
+}
+
+#showcase p {
+    font-size: 28px;
+    line-height: 30px;
+    font-family: 'Sofia', cursive;
+    
+}
+
+#butshow {
+    padding: 15px 45px 15px 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #b34fc4;
+    color: white;
+    margin-bottom: 60px;
+    font-family: 'Sofia', cursive;
+}
+
+/* Caixas */
+#caixas {
+    background-color: white;
+}
+
+#caixas .caixa {
+text-align: center;
+float: left;
+width: 32%;
+line-height: 20px;
+align-items: center;
+}
+
+#caixas .caixa img {
+    width: 40%;
+    margin-top: 40px;
+}
+
+/*  Newsletter */
+#newsletter {
+    padding: 1px;
+    color: white;
+}
+
+#newsletter h1 {
+    float: left;
+    margin-top: 35px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 25px;
+    
+}
+
+#newsletter input {
+    padding: 7px 0 4px 20px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#newsletter .buttonsub {
+    height: 36px;
+    padding: 0 20px 0 20px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Sofia', cursive;
+    border-radius: 3px;
+}
+
+#placetext::placeholder {
+    color: #b34fc4;
+    font-family: 'Sofia', cursive;
+    font-size: 12px;    
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    color: #b34fc4;
+    font-family: 'Sofia', cursive;
+}
+
+/* Manifesto */
+#maniftitle {
+    color: #b34fc4;
+    font-size: 55px;    
+}
+
+#sidebar { 
+    float: right;
+    width: 22%;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    padding-right: 148px;
+    margin: 20px 0 -6px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#articlecss {
+    float: left;
+    width: 65%;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 0px 30px 5px 30px;
+    text-align: justify;
+    
+}
+
+#whitititle {
+    color: #b34fc4;
+    font-size: 30px;
+}
+
+#linha {
+    height: 2px;
+    background-color: white;
+}
+
+/* Contato */
+
+#contactmain {
+    float: left;
+    width: 90%;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 0px 20px 5px 20px;
+    text-align: justify;
+}
+
+.labeltitle {
+    color: #b34fc4;
+    font-size: 24px;
+}
+
+#contacttitle {
+    color: #b34fc4;
+    font-size: 55px;
+}
+
+.contactinput {
+    padding: 3px 100px 2px 5px;
+    font-size: 20px;
+
+}
+
+.contacttextarea {
+    padding: 2px 535px 150px 7px;
+    
+}
+
+.contacttextarea::placeholder {
+    font-size: 18px;
+}
+
+#sidebarcontact { 
+    width: 22%;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    padding-right: 148px;
+    margin: 20px 0 -6px 0;
+    
+    
+}
+
+#whitititlecontact {
+    color: #b34fc4;
+    font-size: 30px;
+}
+
+#maincontact {
+    display: flex;
+}
+
+.whiti img {
+    width: 70%;
+    margin-top: 40px;
+}
